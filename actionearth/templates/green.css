@@ -1,0 +1,59 @@
+/*** Colours **********
+#474747 - very dark green - header
+#1f4802 - dark green - title
+#2b8500 - intense green - menubar text
+#668557 - medium green - menubar text
+#5a845a - medium green - sidebox-header
+#ff7300 - bright orange - date headings
+#b5aa80 - beige - menubar
+#dddc92 - yellow - title text
+#e2e2e2 - gray - sidebox-body
+#555555 - gray - content text
+#222222 = dark gray - sidebox text
+*/
+
+#header             { background:#474747; }
+#menubar            { background:#b5aa80 url('../images/corners/b5aa80/bottom-right-20px.gif') no-repeat bottom right; }
+#title              { background:#1f4802 url('../images/corners/1f4802/bottom-right-40px.gif') no-repeat bottom right; }
+
+.sidebox-header     { background:#5a845a url('../images/corners/5a845a/top-left-20px.gif')     no-repeat top left;  }
+.sidebox-header div {        background: url('../images/corners/5a845a/top-right-20px.gif')    no-repeat top right; }
+.sidebox-body       { background:#e2e2e2 url('../images/corners/e2e2e2/bottom-left-20px.gif')  no-repeat bottom left;  }
+.sidebox-body div   {        background: url('../images/corners/e2e2e2/bottom-right-20px.gif') no-repeat bottom right; }
+.sidebox-spacer     { height:-1px;  background:white; padding:0; margin:0; display:none; }
+
+a                   { color:#2b8500; }
+a:visited           { color:#668557; }
+a:hover             { color:#1f4802; }
+
+#menubar a:hover    { color:#1d5900; }
+#menubar a          { color:#2b8500; }
+
+.content div.event  { border-color:solid thin #2b8500; }
+.summary            { border-color:solid thin #2b8500; }
+
+
+.sidebox-body .date { color:#ff7300; } /* Orange */
+h3.date  .date h3   { color:#ff7300; } /* Orange */
+/* .sidebox-body .date { color:red; }  /* Orange */
+/* h3.date, .date h3   { color:red; }  /* Orange */
+
+.sidebox-header h3  { color:#dddc92; }
+#title h2           { color:#dddc92; }
+
+.sidebox-body h3    { color:#474747; }
+.sidebox-body p     { color:#222222; }
+.sidebox-body hr    { background-color:white; color:white; height:2px; }
+
+.content            { color:#555555; }
+.content p          { color:#555555; }
+.content li         { color:#555555; }
+
+.alert              { border:solid thin red; }
+
+.popup h2,
+.popup h3 { color:#5a845a }
+
+  .menu li.uberlink   { background:url('../images/arrow_right_green.png')  no-repeat 0% 45%; }
+  .menu li.uberparent { background:url('../images/arrow_curved_green.png') no-repeat 0% 45%; }
+

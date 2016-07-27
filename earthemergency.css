@@ -1,0 +1,71 @@
+body {
+	color: #006600;
+}
+
+a {
+	font-weight: bold;
+	color: #009900;
+	text-decoration: underline;
+}
+
+a.menu {
+	font-weight: bold;
+	color: #FFFFFF;
+	text-decoration: underline;
+}
+
+.menu {
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+a:hover {
+	font-weight: bold;
+	color: #003300;
+	text-decoration: none;
+}
+
+a.backtotop {
+  display: block;
+  padding: 6px;
+}
+
+.text-on-green {
+	color: #003300;
+}
+
+.heading-page {
+	font-size: x-large;
+	font-weight: bold;
+	color: #006600;
+	text-align: center;
+}
+
+.heading-main {
+	font-size: 48px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #006600;
+	line-height: 100px;
+	text-align: center;
+}
+
+.heading-plus1 {
+	font-size: larger;
+	color: #006600;
+	text-align: center;
+}
+
+.heading-section {
+	font-size: larger;
+	color: #006600;
+	font-weight: bold;
+}
+.black-bold {
+	font-weight: bolder;
+	color: #000000;
+}
+.small-print {
+	font-size: smaller;
+	font-style: italic;
+}

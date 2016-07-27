@@ -1,0 +1,59 @@
+/*** Colours **********
+#474747 - very dark green - header
+#1f4802 - dark green - title
+#2b8500 - intense green - menubar text
+#668557 - medium green - menubar text
+#5a845a - medium green - sidebox-header
+#ff7300 - bright orange - date headings
+#b5aa80 - beige - menubar
+#dddc92 - yellow - title text
+#e2e2e2 - gray - sidebox-body
+#555555 - gray - content text
+#222222 = dark gray - sidebox text
+
+#ffd98a light brown
+#cce5ff Less White Blue
+*/
+
+#header             { background:#474747; } /* Very Dark Green */
+#menubar            { background:#cce5ff url('../images/corners/cce5ff/bottom-right-20px.gif') no-repeat bottom right; } /* Less White Blue */
+#title              { background:#e7f3ff url('../images/corners/e7f3ff/bottom-right-40px.gif') no-repeat bottom right; } /* Whitish Blue */
+
+.sidebox-header     { background:#5b9dcd url('../images/corners/5b9dcd/top-left-20px.gif')     no-repeat top left;  }    /* Medium Blue */
+.sidebox-header div {        background: url('../images/corners/5b9dcd/top-right-20px.gif')    no-repeat top right; }
+.sidebox-body       { background:#e2e2e2 url('../images/corners/e2e2e2/bottom-left-20px.gif')  no-repeat bottom left;  } /* Light Gray */
+.sidebox-body div   {        background: url('../images/corners/e2e2e2/bottom-right-20px.gif') no-repeat bottom right; }
+.sidebox-spacer     { height:-1px;  background:white; padding:0; margin:0; display:none; }
+
+a                   { color:#5b9dcd; } /* Medium Blue */
+a:visited           { color:#7aaacc; } /* Paler Blue  */
+a:hover             { color:#396280; } /* Darker Blue */
+
+
+#menubar a          { color:#5b9dcd; }
+#menubar a:hover    { color:#1d4054; color:#396280; }
+
+.content div.event  { border-color:solid thin #5b9dcd; }
+.summary            { border-color:solid thin #5b9dcd; }
+
+
+
+.sidebox-body .date { color:#ff7300; } /* Orange */
+.sidebox-header h3  { color:white;   }
+#title h2           { color:#143d66; } /* Very Dark Blue */
+
+.sidebox-body h3    { color:#474747; }
+.sidebox-body p     { color:#222222; }
+.sidebox-body hr    { background-color:white; color:white; height:2px; }
+
+.content            { color:#555555; }
+.content p          { color:#555555; }
+.content li         { color:#555555; }
+
+.alert              { border:solid thin red; }
+
+.popup h2,
+.popup h3 { color:#5b9dcd }
+
+  .menu li.uberlink   { background:url('../images/arrow_right_blue.png')  no-repeat 0% 45%; }
+  .menu li.uberparent { background:url('../images/arrow_curved_blue.png') no-repeat 0% 45%; }

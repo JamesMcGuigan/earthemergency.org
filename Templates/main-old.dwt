@@ -1,0 +1,259 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<!-- Inserting Title Here will overwride the language select version
+<!-- <title>Earth Emergency - A Call To Action</title> -->
+<!-- TemplateEndEditable -->
+
+<!-- TemplateBeginEditable name="head" -->
+
+<!-- TemplateEndEditable -->
+
+<!-- TemplateParam name="File" type="text" value="" --> 
+<!-- TemplateParam name="Lang" type="text" value="English" --> 
+<!-- TemplateParam name="Layout" type="text" value="" --> 
+
+<!-- TemplateBeginIf cond="Lang == 'English'" -->
+ <title>Earth Emergency - A Call To Action</title>
+<!-- TemplateEndIf --> 
+<!-- TemplateBeginIf cond="Lang == 'French'" -->
+ <title>Urgence de la Terre - Un Appel Pour Agir</title> 
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="Lang == 'Italian'" -->
+ <title>Emergenza Terra - Richiamo All' Azione</title> 
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="Lang == 'Spanish'" -->
+ <title>La Emergencia de la Tierra - </title> 
+<!-- TemplateEndIf -->
+
+<!-- TemplateBeginIf cond="Layout != 'cgi-bin'" -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- TemplateEndIf -->
+<link href="../earthemergency.css" rel="stylesheet" type="text/css">
+
+</head>
+<body  bgcolor="#FFFFFF" text="#003300" link="#006600" alink="#000000" vlink="#006600">
+
+
+<a name="top"></a>
+<table border="0" align="center" cellpadding="0" width="98%">
+  <!-- Top Section -->
+  <tr>
+    <td >
+<!-- TemplateBeginIf cond="Lang == 'English'" -->
+	    
+      <div align="center" class="heading-main">Earth Emergency</div>       
+<!-- TemplateEndIf --> 
+<!-- TemplateBeginIf cond="Lang == 'French'" -->
+	<div align="center" class="heading-main">Urgence de la Terre</div>       
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="Lang == 'Italian'" -->
+      <div align="center" class="heading-main">Emergenza Terra</div>       
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="Lang == 'Spanish'" -->
+	    <div align="center" class="heading-main">La Emergencia de la Tierra</div>       
+<!-- TemplateEndIf -->
+
+<div align="center">
+<hr width="75%">
+        <!-- TemplateBeginIf cond="Lang == 'English'" -->
+
+- @@(File == 'call.htm'      ? '<span class="black-bold">A Call To Action</span>'     : '<a href="call.htm">A Call To Action</a>')@@ 
+- @@(File == 'wfc.htm'       ? '<span class="black-bold">World Future Council</span>' : '<a href="wfc.htm">World Future Council</a>')@@ 
+
+<!-- TemplateEndIf --> 
+<!-- TemplateBeginIf cond="Lang == 'French'" -->
+
+- @@(File == 'call.htm'      ? '<span class="black-bold">Un Appel Pour Agir</span>'        : '<a href="call-fr.htm">Un Appel Pour Agir</a>')@@ 
+- @@(File == 'wfc.htm'       ? '<span class="black-bold">Conceil d\'Avenir Mondial</span>' : '<a href="wfc-fr.htm">Conceil d\'Avenir Mondial</a>')@@ 
+
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="Lang == 'Italian'" -->
+
+- @@(File == 'call.htm'      ? '<span class="black-bold">Richiamo All\' Azione</span>'            : '<a href="call-it.htm">Richiamo All\' Azione</a>')@@ 
+- @@(File == 'wfc.htm'       ? '<span class="black-bold">Consiglio sul Futuro del Pianeta</span>' : '<a href="wfc-it.htm">Consiglio sul Futuro del Pianeta</a>')@@ 
+
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="Lang == 'Spanish'" -->
+
+- @@(File == 'call.htm'      ? '<span class="black-bold">Un Llamado a la Accion</span>' : '<a href="call-es.htm">Un Llamado a la Accion</a>')@@ 
+- @@(File == 'wfc.htm'       ? '<span class="black-bold">World Future Council</span>'   : '<a href="wfc.htm">World Future Council</a>')@@ 
+
+<!-- TemplateEndIf -->
+
+- @@(File == 'sign.htm'        ? '<span class="black-bold">Sign Declaration</span>'     : '<a href="sign.htm">Sign Declaration</a>')@@ 
+- @@(File == 'signatories.htm' ? '<span class="black-bold">View Signatories</span>'     : '<a href="signatories.htm">View Signatories</a>')@@
+- @@(File == 'initiatives.htm' ? '<span class="black-bold">Initiatives</span>'          : '<a href="initiatives.htm">Initiatives</a>')@@
+- @@(File == 'resources.htm'   ? '<span class="black-bold">Resources</span>'            : '<a href="resources.htm">Resources</a>')@@ 
+- <a href="http://www.sustainable-society.co.uk/" target="_blank">Directory</a>
+- @@(File == 'forum.htm'     ? '<span class="black-bold">Forum</span>'                  : '<a href="forum.htm">Forum</a>')@@ 
+- @@(File == 'sitemap.htm'   ? '<span class="black-bold">Site Map</span>'               : '<a href="sitemap.htm">Site Map</a>')@@ 
+- 
+<hr width="75%">
+</div>
+
+
+
+
+
+
+
+
+
+<table align="center" width="70%">
+<tr><td>
+<div align="right">
+
+<!-- TemplateBeginIf cond="File == 'call.htm'" -->
+	@@(Lang == 'English' ? '<span class="black-bold">English</span>'  : '<a href="call.htm">English</a>'    )@@ -
+	@@(Lang == 'French'  ? '<span class="black-bold">Francais</span>' : '<a href="call-fr.htm">Francais</a>')@@ -
+	@@(Lang == 'Italian' ? '<span class="black-bold">Italiana</span>' : '<a href="call-it.htm">Italiana</a>')@@ -
+	@@(Lang == 'Spanish' ? '<span class="black-bold">Espanola</span>' : '<a href="call-es.htm">Espanola</a>')@@
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="File == 'wfc.htm'" -->
+	@@(Lang == 'English' ? '<span class="black-bold">English</span>'  : '<a href="wfc.htm">English</a>'    )@@ -
+	@@(Lang == 'French'  ? '<span class="black-bold">Francais</span>' : '<a href="wfc-fr.htm">Francais</a>')@@ -
+	@@(Lang == 'Italian' ? '<span class="black-bold">Italiana</span>' : '<a href="wfc-it.htm">Italiana</a>')@@ -
+<!-- TemplateEndIf -->
+
+    </div></td></tr>
+</table>
+
+
+
+
+
+
+	      <br>
+        <br>
+    </td>
+  </tr>
+</table>
+
+
+
+
+
+<table align="center" cellpadding="0" border="0" width="98%">
+  <tr>
+<!-- TemplateBeginIf cond="Layout != 'wide'" -->
+	  <!-- Left Panel -->
+	  <td width="140" valign="top">
+			@@(File == 'call.htm'      ? '<span class="black-bold">A Call To Action</span>'     : '<a href="call.htm">A Call To Action</a>')@@ <br>
+      A declaration of change for the future.<br>
+      <br>
+      @@(File == 'wfc.htm'       ? '<span class="black-bold">World Future Council</span>' : '<a href="wfc.htm">World Future Council</a>')@@<br>
+      A body to represent civic society and our shared human values and traditions.<br>
+      <br>
+      @@(File == 'sign.htm'        ? '<span class="black-bold">Sign Declaration</span>'     : '<a href="sign.htm">Sign Declaration</a>')@@<br>
+      <br>
+      @@(File == 'signatories.htm' ? '<span class="black-bold">View Signatories</span>'     : '<a href="signatories.htm">View Signatories</a>')@@
+<br>
+            <br>
+      @@(File == 'resources.htm' ? '<span class="black-bold">Resources</span>'            : '<a href="resources.htm">Resources</a>')@@ <br>
+      Links to various resources<br>
+      <br>
+      @@(File == 'initiatives.htm' ? '<span class="black-bold">Initiatives</span>'            : '<a href="initiatives.htm">Initiatives</a>')@@ 
+      <br>
+      Coalitions, initiatives and campaigns for action<br>
+      <br>
+      <a href="http://www.sustainable-society.co.uk/"><strong>Directory</strong></a><br>
+The sustainable society directory [on our sister site]  links to orginizations working towards a sustainable society<br>
+      <br>
+@@(File == 'forum.htm'     ? '<span class="black-bold">Forum</span>'                  : '<a href="forum.htm">Forum</a>')@@<br>
+      An open forum to discuss the declaration and its implications      on the Earth Summit for All website.<br>
+      <br>
+      @@(File == 'sitemap.htm'   ? '<span class="black-bold">Site Map</span>'            : '<a href="sitemap.htm">Site Map</a>')@@            <br>
+      </td>
+			
+<!-- TemplateEndIf -->
+			
+    <!-- Center Panel -->
+	  <td valign="top">
+		
+		<table width="@@(Layout != 'wide' ? '90%' : '100%')@@" align="center">
+<!-- TemplateBeginEditable name="body" -->
+			<tr valign="top">
+  			<td>
+
+				Enter Text Here
+
+				</td>
+			</tr>
+<!-- TemplateEndEditable -->		
+		</table>
+    </td>
+
+<!-- TemplateBeginIf cond="Layout != 'wide'" -->
+    <!-- Right Panel -->
+	  <td width="140" valign="top">
+
+            <a href="http://www.earthcharter.org/" target="_blank">
+            <strong>The Earth Charter</strong></a><br>
+      The Charter is an authoritative synthesis of values, principles, and aspirations 
+      reflecting extensive international consultations.<br>
+      <br>
+            <a href="http://www.earthcharter.org/" target="_blank"><strong>Living Planet Report</strong></a><br>
+      WWF's periodic update on the state of the world's ecosystems - as measured by the Living Planet Indexand Ecological Footprint. <br>
+      <br>
+      <a href="http://www.unep.org/geo/geo3" target="_blank"><strong>GEO3</strong></a><br>
+      UNEP Global Environmental Outlook - charts the environmental degradation of the last 30 years since the first world environment conference in Stockholm in 1972.<br>
+      <br>
+      <a href="http://www.joburgmemo.org" target="_blank">The Jo'burg Memo</a><br>
+							An agenda for equity 
+              and ecology for the next decade. Environmental care is key for ensuring livelihood and health 
+              for the marginalised  and that there 
+              can be no poverty eradication without ecology. </td>
+							
+<!-- TemplateEndIf -->							
+  </tr>
+
+</table>
+
+
+
+
+<table width="98%" border="0" align="center" cellpadding="0">
+  <!-- Top Section -->
+  <tr>
+	  <td >
+        <div align="center">
+				<br>
+				<br>
+				<a href="#top">
+        back to top</a><br>
+	      </div>
+				
+
+      <div align="center"> 
+        <hr width="75%">
+        <!-- TemplateBeginIf cond="Lang == 'English'" --> - @@(File == 'call.htm'      ? '<span class="black-bold">A Call To Action</span>'     : '<a href="call.htm">A Call To Action</a>')@@ 
+        - @@(File == 'wfc.htm'       ? '<span class="black-bold">World Future Council</span>' : '<a href="wfc.htm">World Future Council</a>')@@ 
+        <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="Lang == 'French'" --> 
+        - @@(File == 'call.htm'      ? '<span class="black-bold">Un Appel Pour Agir</span>'        : '<a href="call-fr.htm">Un Appel Pour Agir</a>')@@ 
+        - @@(File == 'wfc.htm'       ? '<span class="black-bold">Conceil d\'Avenir Mondial</span>' : '<a href="wfc-fr.htm">Conceil d\'Avenir Mondial</a>')@@ 
+        <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="Lang == 'Italian'" --> 
+        - @@(File == 'call.htm'      ? '<span class="black-bold">Richiamo All\' Azione</span>'            : '<a href="call-it.htm">Richiamo All\' Azione</a>')@@ 
+        - @@(File == 'wfc.htm'       ? '<span class="black-bold">Consiglio sul Futuro del Pianeta</span>' : '<a href="wfc-it.htm">Consiglio sul Futuro del Pianeta</a>')@@ 
+        <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="Lang == 'Spanish'" --> 
+        - @@(File == 'call.htm'      ? '<span class="black-bold">Un Llamado a la Accion</span>' : '<a href="call-es.htm">Un Llamado a la Accion</a>')@@ 
+        - @@(File == 'wfc.htm'       ? '<span class="black-bold">World Future Council</span>'   : '<a href="wfc.htm">World Future Council</a>')@@ 
+        <!-- TemplateEndIf --> - @@(File == 'sign.htm'        ? '<span class="black-bold">Sign Declaration</span>'     : '<a href="sign.htm">Sign Declaration</a>')@@ 
+        - @@(File == 'signatories.htm' ? '<span class="black-bold">View Signatories</span>'     : '<a href="signatories.htm">View Signatories</a>')@@ 
+        - @@(File == 'initiatives.htm' ? '<span class="black-bold">Initiatives</span>'          : '<a href="initiatives.htm">Initiatives</a>')@@ 
+        - @@(File == 'resources.htm'   ? '<span class="black-bold">Resources</span>'            : '<a href="resources.htm">Resources</a>')@@ 
+        - <a href="http://www.sustainable-society.co.uk/" target="_blank">Directory</a> 
+        - @@(File == 'forum.htm'     ? '<span class="black-bold">Forum</span>'                  : '<a href="forum.htm">Forum</a>')@@
+        - @@(File == 'sitemap.htm'   ? '<span class="black-bold">Site Map</span>'               : '<a href="sitemap.htm">Site Map</a>')@@ 
+        - 
+        <hr width="75%">
+      </div>
+
+
+				
+      </td>
+  </tr>
+</table>
+</body>
+</html>

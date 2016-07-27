@@ -1,0 +1,332 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<head>
+
+<!-- TemplateBeginEditable name="doctitle" -->
+<!-- Inserting Title Here will overwride the language select version
+<!-- <title>Earth Emergency - A Call To Action</title> -->
+<!-- TemplateEndEditable -->
+
+<!-- TemplateBeginEditable name="head" -->
+
+<!-- TemplateEndEditable -->
+
+<!-- TemplateParam name="File" type="text" value="" --> 
+<!-- TemplateParam name="Lang" type="text" value="English" --> 
+<!-- TemplateParam name="Layout" type="text" value="" --> 
+
+<!-- TemplateBeginIf cond="Lang == 'English'" -->
+ <title>Earth Emergency - A Call To Action</title>
+<!-- TemplateEndIf --> 
+<!-- TemplateBeginIf cond="Lang == 'French'" -->
+ <title>Urgence de la Terre - Un Appel Pour Agir</title> 
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="Lang == 'Italian'" -->
+ <title>Emergenza Terra - Richiamo All' Azione</title> 
+<!-- TemplateEndIf -->
+<!-- TemplateBeginIf cond="Lang == 'Spanish'" -->
+ <title>La Emergencia de la Tierra - </title> 
+<!-- TemplateEndIf -->
+
+<!--  the meta line makes perl scripts invalid -->
+<!-- TemplateBeginIf cond="Layout != 'cgi-bin'" -->
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+<!-- TemplateEndIf -->
+<link href="../earthemergency.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+<table width="98%" border="0" cellpadding="0" cellspacing="0">
+  <!-- Title Bar -->
+  <tr valign="top"> 
+    <td colspan="3" background="../images/crowd-mix-yellow.jpg" bgcolor="#FF0000" height="48"> 
+      <img src="../images/earthemergency-text.jpg" width="500" height="58" alt="Earth Emergency"></td>
+  </tr>
+  <tr bgcolor="#009933"> 
+    <!-- Menu Bar -->
+    <td colspan="3"> <!-- TemplateBeginIf cond="Lang == 'English'" --> - @@(File == 'call.htm'      ? '<span class="black-bold">A Call To Action</span>'     : '<a href="call.htm">A Call To Action</a>')@@ 
+      - @@(File == 'wfc.htm'       ? '<span class="black-bold">World Future Council</span>' : '<a href="wfc.htm">World Future Council</a>')@@ 
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="Lang == 'French'" --> 
+      - @@(File == 'call.htm'      ? '<span class="black-bold">Un Appel Pour Agir</span>'        : '<a href="call-fr.htm">Un Appel Pour Agir</a>')@@ 
+      - @@(File == 'wfc.htm'       ? '<span class="black-bold">Conceil d\'Avenir Mondial</span>' : '<a href="wfc-fr.htm">Conceil d\'Avenir Mondial</a>')@@ 
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="Lang == 'Italian'" --> 
+      - @@(File == 'call.htm'      ? '<span class="black-bold">Richiamo All\' Azione</span>'            : '<a href="call-it.htm">Richiamo All\' Azione</a>')@@ 
+      - @@(File == 'wfc.htm'       ? '<span class="black-bold">Consiglio sul Futuro del Pianeta</span>' : '<a href="wfc-it.htm">Consiglio sul Futuro del Pianeta</a>')@@ 
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="Lang == 'Spanish'" --> 
+      - @@(File == 'call.htm'      ? '<span class="black-bold">Un Llamado a la Accion</span>' : '<a href="call-es.htm">Un Llamado a la Accion</a>')@@ 
+      - @@(File == 'wfc.htm'       ? '<span class="black-bold">World Future Council</span>'   : '<a href="wfc.htm">World Future Council</a>')@@ 
+      <!-- TemplateEndIf --> @@(File == 'sign.htm'        ? '<span class="black-bold">Sign Declaration</span>'     : '<a href="sign.htm">Sign Declaration</a>')@@ 
+      | @@(File == 'signatories.htm' ? '<span class="black-bold">View Signatories</span>'     : '<a href="signatories.htm">View Signatories</a>')@@ 
+      | @@(File == 'initiatives.htm' ? '<span class="black-bold">Initiatives</span>'          : '<a href="initiatives.htm">Initiatives</a>')@@ 
+      | @@(File == 'resources.htm'   ? '<span class="black-bold">Resources</span>'            : '<a href="resources.htm">Resources</a>')@@ 
+      | <a href="http://www.sustainable-society.org/" target="_blank">Directory</a> 
+      | @@(File == 'forum.htm'     ? '<span class="black-bold">Forum</span>'                  : '<a href="forum.htm">Forum</a>')@@ 
+      | @@(File == 'about.htm'     ? '<span class="black-bold">About</span>'                  : '<a href="about.htm">About</a>')@@ 
+      | @@(File == 'sitemap.htm'   ? '<span class="black-bold">Site Map</span>'               : '<a href="sitemap.htm">Site Map</a>')@@ 
+    </td>
+  </tr>
+  <tr> <!-- TemplateBeginIf cond="Layout != 'wide'" --> 
+    <!-- Left Side Bar -->
+    <td bgcolor="#99CC99" width="170" valign="top"><br> <!-- TemplateBeginIf cond="File == 'call.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="black-bold">A Call 
+              To Action</div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="menu-text">A declaration 
+              of change for the future</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File != 'call.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="../call.htm">A 
+              Call To Action</a></div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center"><font color="#003300">A declaration 
+              of change for the future</font></div></td>
+        </tr>
+      </table>
+      <br>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File == 'wfc.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="black-bold">World Future 
+              Council</div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="menu-text">A body to 
+              represent civic society and our shared human values and traditions</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File != 'wfc.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="../wfc.htm">World 
+              Future Council</a></div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center">A body to represent civic 
+              society and our shared human values and traditions</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <br> <!-- TemplateBeginIf cond="File == 'sign.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="black-bold">Sign Declaration</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File != 'sign.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="../sign.htm">Sign 
+              Declaration</a></div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <br> <!-- TemplateBeginIf cond="File == 'signatories.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="black-bold">View Signatories</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File != 'signatories.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="../signatories.htm">View 
+              Signatories</a></div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <br> <!-- TemplateBeginIf cond="File == 'resources.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="black-bold">Resources</div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="menu-text">Links to 
+              various resources</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File != 'resources.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="../resources.htm">Resources</a></div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center">Links to various resources</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <br> <!-- TemplateBeginIf cond="File == 'initiatives.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="black-bold">Initiatives</div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="menu-text">Coalitions, 
+              initiatives and campaigns for action</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File != 'initiatives.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="../initiatives.htm">Initiatives</a></div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center">Coalitions, initiatives and 
+              campaigns for action</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <br> <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="http://www.sustainable-society.org/">Directory</a></div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center">The sustainable society directory 
+              [on our sister site] links to orginizations working towards a sustainable 
+              society</div></td>
+        </tr>
+      </table>
+      <br> <!-- TemplateBeginIf cond="File == 'forum.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="black-bold">Forum</div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="menu-text">An open 
+              forum to discuss the declaration and its implications on the Earth 
+              Summit for All website</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File != 'forum.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="../forum.htm">Forum</a></div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center">An open forum to discuss the 
+              declaration and its implications on the Earth Summit for All website.</div></td>
+        </tr>
+      </table>
+      <br>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File == 'about.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="black-bold">About</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File == 'about.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="about.htm">About</a></div></td>
+        </tr>
+      </table>
+      <br>
+      <!-- TemplateEndIf --><br> <!-- TemplateBeginIf cond="File == 'sitemap.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#ffffaa"><div align="center" class="black-bold">Site Map</div></td>
+        </tr>
+      </table>
+      <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File == 'sitemap.htm'" --> 
+      <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="../sitemap.htm">Site 
+              Map</a></div></td>
+        </tr>
+      </table>
+      <br>
+      <!-- TemplateEndIf --> <br> </td>
+    <!-- TemplateEndIf --> 
+    <!-- Main Text Section -->
+    <!-- Center Panel -->
+	  <td valign="top">
+		
+		<table width="@@(Layout != 'wide' ? '90%' : '100%')@@" align="center">
+<!-- TemplateBeginEditable name="body" -->
+			<tr valign="top">
+  			<td>
+
+				Enter Text Here
+
+				</td>
+			</tr>
+<!-- TemplateEndEditable -->		
+		</table>
+    </td>
+		
+		<!-- TemplateBeginIf cond="Layout != 'wide'" -->
+    <!-- Right Side Bar -->
+    <td bgcolor="#99CC99" width="170" valign="top"><br> <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center"> <!-- TemplateBeginIf cond="File == 'call.htm'" --> 
+              @@(Lang == 'English' ? '<span class="black-bold">English</span>'  : '<a href="call.htm">English</a>'    )@@ 
+              <br>
+              @@(Lang == 'French'  ? '<span class="black-bold">Francais</span>' : '<a href="call-fr.htm">Francais</a>')@@ 
+              <br>
+              @@(Lang == 'Italian' ? '<span class="black-bold">Italiana</span>' : '<a href="call-it.htm">Italiana</a>')@@ 
+              <br>
+              @@(Lang == 'Spanish' ? '<span class="black-bold">Espanola</span>' : '<a href="call-es.htm">Espanola</a>')@@ 
+              <!-- TemplateEndIf --> <!-- TemplateBeginIf cond="File == 'wfc.htm'" --> 
+              @@(Lang == 'English' ? '<span class="black-bold">English</span>'  : '<a href="wfc.htm">English</a>'    )@@ 
+              <br>
+              @@(Lang == 'French'  ? '<span class="black-bold">Francais</span>' : '<a href="wfc-fr.htm">Francais</a>')@@ 
+              <br>
+              @@(Lang == 'Italian' ? '<span class="black-bold">Italiana</span>' : '<a href="wfc-it.htm">Italiana</a>')@@ 
+              <!-- TemplateEndIf --> </div></td>
+        </tr>
+      </table>
+      <br> <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="http://www.earthcharter.org/">The 
+              Earth Charter</a></div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center">The Charter is an authoritative 
+              synthesis of values, principles, and aspirations reflecting extensive 
+              international consultations.</div></td>
+        </tr>
+      </table>
+      <br> <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="http://www.earthcharter.org/" target="_blank">Living 
+              Planet Report</a></div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center">WWF's periodic update on the 
+              state of the world's ecosystems - as measured by the Living Planet 
+              Indexand Ecological Footprint</div></td>
+        </tr>
+      </table>
+      <br> <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="http://www.unep.org/geo/geo3">GEO3</a></div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center">UNEP Global Environmental 
+              Outlook - charts the environmental degradation of the last 30 years 
+              since the first world environment conference in Stockholm in 1972</div></td>
+        </tr>
+      </table>
+      <br> <table width="97%" border="0" cellspacing="1" cellpadding="0" align="center">
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center" class="menu-text"><a href="http://www.joburgmemo.org">The 
+              Jo'burg Memo</a></div></td>
+        </tr>
+        <tr> 
+          <td bgcolor="#cbffcf"><div align="center">An agenda for equity and ecology 
+              for the next decade. Environmental care is key for ensuring livelihood 
+              and health for the marginalised and that there can be no poverty 
+              eradication without ecology</div></td>
+        </tr>
+      </table></td>
+			<!-- TemplateEndIf -->
+  </tr>
+  <!-- Base Bar -->
+  <tr bgcolor="#009933"> 
+    <td colspan="3"><img src="../images/spacer.gif" width="1" height="4"></td>
+  </tr>
+</table>
+</body>
+</html>
